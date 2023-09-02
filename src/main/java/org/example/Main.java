@@ -12,7 +12,7 @@ public class Main {
         for(i=0;i<list.size();i++ )
         {
             for(j=0;j<list.size()-1;j++){
-                if(list.get(j)>list.get(j+1) && j+1<= list.size())
+                if(list.get(j)>list.get(j+1))
                 {
                     temp = list.get(j);
                     list.set(j, list.get(j+1));
